@@ -1,0 +1,48 @@
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: rgb(225, 242, 248);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button {
+    margin: 10px;
+    padding: 20px; /* Set the padding to create a square button */
+    background-color: #116479;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 150px; /* Set a fixed width for the square button */
+    height: 150px; /* Set the same height as the width to create a square button */
+    box-sizing: border-box;
+    text-decoration: none; /* Remove the underline style for anchor tags */
+    text-align: center; /* Center the text inside the button */
+    line-height: 150px; /* Center the text vertically */
+}
+
+@media (min-width: 768px) {
+    .button {
+        width: 150px; /* Adjust the width for larger screens if needed */
+        height: 150px; /* Set the same height as the width for a square button */
+    }
+}
